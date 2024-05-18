@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+}
+header{
+    width: 100vw;
+    height: 90vh; 
+    background: url(../Imagenes/acerca_de_nosotros.jpg);
+    background-size: cover;
+    background-position: center;  
+}nav{
+    background-color: rgb(245, 233, 217);
+    height: 80px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    justify-content: space-around;
+    z-index: 10;
+}
+nav .navigation{
+    display: flex;
+    gap: 3em;
+}
+main{
+    width: 100vw;
+}
+nav .compra{
+    display: flex;
+    gap: 2em;
+}
+nav .logo img{
+    width: 100px;
+    height: auto;
+}
+nav .compra a{
+    text-decoration: none;
+    font-size: x-large;
+    color: rgb(59, 43, 25);
+}
+nav .compra a:hover{
+    color: rgb(170, 93, 6);;
+}
+nav .navigation a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    color: rgb(59, 43, 25);
+    text-decoration: none;
+}
+nav .navigation a:hover{
+    color: rgb(170, 93, 6);;
+}
+.sobre_nosotros{
+    padding: 2% 2%;
+    background-color: rgb(223, 236, 235);
+}
+.titulo{
+    margin-top: 3%;
+    background-color: rgb(54, 141, 141);
+    color: white;
+    text-align: center;
+    padding: 6px;
+    border-radius: 15px;
+    width: 15vw;
+}
+.titulo_comp{
+    margin-top: 3%;
+    background-color: rgb(54, 141, 141);
+    color: white;
+    text-align: center;
+    padding: 6px;
+    border-radius: 15px;
+    width: 30vw;
+}
+
+.texto{
+    background-color: white;
+    border-radius: 10px;
+    width: 90vw;
+    padding: 2% 3%;
+}
+.texto p{
+    font-size: larger;
+}
